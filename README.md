@@ -73,7 +73,7 @@ const computerChoice = options[Math.floor(Math.random() * 3)];
 ## 🖼️ Screenshots
 
 ```
-![Game Screenshot](assets/screenshot.png)
+![Game Screenshot](screenshot.png)
 ```
 
 ---
