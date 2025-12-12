@@ -64,17 +64,15 @@ Simple, fast, fun. 🎉
 The computer's move uses:
 
 ```js
-const options = ["rock", "paper", "scissors"];
-const computerChoice = options[Math.floor(Math.random() * 3)];
+const options = ["rock", "rock", "scissors"];
+const computerChoice = options[Math.floor(Math.random() * 3)];  
 ```
 
 ---
 
 ## 🖼️ Screenshots
 
-```
-![Game Screenshot](screenshot.png)
-```
+![rock, rock, scissors](screenshot.png)
 
 ---
 
