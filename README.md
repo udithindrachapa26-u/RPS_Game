@@ -1,9 +1,3 @@
-Here is a **fully styled, GitHub-ready README with badges** for your **Rock–Paper–Scissors** game.
-
-You can **copy + paste** this directly into `README.md` — it will render beautifully on GitHub. 🎉
-
----
-
 # 🎮 Rock – Paper – Scissors
 
 *A fun, interactive browser game built with HTML, CSS, and JavaScript.*
