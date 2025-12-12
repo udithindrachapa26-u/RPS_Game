@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #2b2e4a, #45dde8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Button container */
+#choices {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+/* Choice buttons */
+#choices button {
+    font-size: 3rem;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(7px);
+    transition: 0.2s ease-in-out;
+}
+
+#choices button:hover {
+    transform: scale(1.15);
+    background: rgba(255, 255, 255, 0.35);
+}
+
+#choices button:active {
+    transform: scale(0.95);
+}
+
+/* Player/Computer Display */
+#playerDisplay,
+#computerDisplay,
+#resultDisplay {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    min-width: 260px;
+    text-align: center;
+}
+
+/* Result color change */
+#resultDisplay {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.scoreDisplay{
+    font-size: 1.5rem;
+}
+
+.greenText, #playerScoreDisplay{
+    color: rgb(37, 225, 53);
+}
+
+.redText, #computerScoreDisplay{
+    color: rgb(233, 36, 52);
+}
+
+.yellowText{
+    color: rgb(244, 244, 31);
+}
+
+.greenBG {
+    background: linear-gradient(135deg, #2b2e4a, #6ceba5);
+}
+
+.redBG {
+    background: linear-gradient(135deg, #2b2e4a, rgb(225, 66, 66));
+}
+
+.yellowBG {
+    background: linear-gradient(135deg, #2b2e4a, rgb(245, 245, 78));
+}
+
